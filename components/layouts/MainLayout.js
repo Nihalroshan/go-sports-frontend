@@ -1,11 +1,10 @@
-import Home from "../../pages/home"
 import Header from "./Header"
 
-const MainLayout = () => {
+const MainLayout = ({ children }) => {
     return (
         <>
             <Header />
-            <Home />
+            {children}
         </>
     )
 }
