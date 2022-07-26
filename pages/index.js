@@ -1,5 +1,13 @@
+import Head from "next/head"
+import MainLayout from "../components/layouts/mainLayout"
+
 export default function Home() {
   return (
-    <div className='grid place-items-center'>Go Sports</div>
+    <div className=''>
+      <Head>
+        <title>Go Sports</title>
+      </Head>
+      <MainLayout />
+    </div>
   )
 }
