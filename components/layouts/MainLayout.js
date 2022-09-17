@@ -1,12 +1,12 @@
-import Header from "./Header"
+import Header from "./Header";
 
 const MainLayout = ({ children }) => {
-    return (
-        <>
-            <Header />
-            {children}
-        </>
-    )
-}
+  return (
+    <>
+      <Header />
+      {children}
+    </>
+  );
+};
 
-export default MainLayout
+export default MainLayout;
